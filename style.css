@@ -1,0 +1,162 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'KoHo', sans-serif;
+}
+body {
+    padding:0;
+    margin:0;
+}
+.flex{
+    display:flex;
+    
+}
+.center{
+    justify-content:center;
+    align-items:center;
+}
+.abs{
+    position:absolute ;
+}
+.top{
+    top:0;
+}
+.spceven{
+    justify-content: space-evenly;
+}
+.full{
+    width:100vw;
+    height:100vh;
+}
+.main{
+    background-color: rgba(220,220,220,0.5);
+}
+.flexCol{
+    flex-direction: column;
+}
+.flexColRev{
+    flex-direction: column-reverse;
+}
+.box{
+    width:100%;
+    flex:1;
+    box-sizing: border-box ;
+}
+.boxChild{
+    box-sizing:border-box ;
+    height:100%;
+    width: calc(100%/7);
+    opacity: 0;
+    border-radius:100%;
+    font-weight:bolder;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+select{
+    width: auto;
+    height: 6%;
+    padding: 0 8%;
+    margin: 2% 0;
+    border-radius: .5rem;
+    border: 1px solid rgba(0,0,0.7);
+    background-color:white;
+    outline:none;
+}
+select:hover{
+    border:2px solid rgba(0,0,0.8);
+}
+label{
+    font-weight: bold;
+}
+#myteamPly,#oppoPly{
+    font-size: .9rem;
+}
+.seperator{
+    padding: 0 3px;
+}
+button{
+    position:absolute ;
+    bottom:0;
+    margin-bottom: 25%;
+    padding: .5rem 1.2rem;
+    border: 2px solid hotpink;
+    border-radius:.8rem;
+    font-weight: bolder;
+    background-color: deeppink;
+    color:white;
+    outline:none;
+    visibility: hidden;
+}
+button:hover{
+    background-color:hotpink;
+}
+.teamBox,.tossBox,.targetBox{
+    background-color: rgba(200,210,210,1);
+    z-index: 999;
+}
+.choice{
+    width: 100%;
+}
+.choice div{
+    display: inline-block ;
+    background-color: white;
+    border-radius: .8rem;
+    padding: .5rem 1rem;
+    box-shadow: 0 2px 3px black;
+}
+.whowin{
+    margin-top: 1.5rem;
+    width: inline-block ;
+    height: 5%;
+}
+
+.button{
+    display: flex!important;
+    margin: 1rem;
+    background-color: orange;
+    padding: .5rem 1rem;
+    border-radius: .8rem;
+    box-shadow: 0 2px 3px black;
+    font-weight: bolder;
+    color: white;
+}
+.targetBox{
+    font-size: 1.1rem;
+}
+
+.info{
+    font-size: .85rem;
+    color: black;
+}
+
+.matchOverBox{
+    background-color: rgba(220,220,220,1);
+    background-color: white;
+}
+
+.headReport{
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.report{
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.same{
+    z-index: 99;
+    font-size: 1.1rem;
+}
+
+
